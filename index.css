@@ -1,0 +1,38 @@
+button {
+    font-size: 1.5em;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.calc-container {
+    margin: 30px auto;
+    width: 350px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.screen {
+    grid-column: 1 / 5;
+    padding: 50px 20px;
+    height: 100px;
+    background-color: #E3FF00;
+    overflow: hidden;
+}
+
+.screen span {
+    font-size: 5em;
+}
+
+.clear {
+    grid-column: 1 / 4;
+}
+
+.zero {
+    grid-column: 1 / 3;
+}
